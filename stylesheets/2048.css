@@ -1,6 +1,6 @@
 html {
-  font: normal normal 18px/1 'Orbitron', sans-serif;
-  background-image: url("../assets/images/asteroidbackground.jpg");
+  font: normal normal 18px/1 'Arial', sans-serif;
+  background-color: #000;
   color: white;
 }
 
@@ -103,7 +103,6 @@ button {
 .gameOver::after {
   content: "";
   border-radius: 0.5rem;
-  background-image: url("../assets/images/nebula-small.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   opacity: 0.4;
