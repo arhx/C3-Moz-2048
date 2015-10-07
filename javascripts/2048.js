@@ -63,7 +63,7 @@ function addTile(possible_values) {
   tile.attr('data-row', rows[randomRow]);
   tile.attr('data-col', cols[randomCol]);
   tile.attr('data-val', possible_values[randomValue]);
-  tile.text(tile.attr('data-val'));
+  // tile.text(tile.attr('data-val'));
 
   if ($('[data-row=' + rows[randomRow] + '][data-col=' + cols[randomCol] + ']').length === 0) {
 
@@ -77,7 +77,7 @@ function addTile(possible_values) {
 function updateValue(tile) {
   var added = tile.attr('data-val') * 2;
   tile.attr('data-val', added);
-  tile.text(added);
+  // tile.text(added);
   pop(tile);
 
   updateScore(added);
